@@ -6,18 +6,18 @@ load("@io_bazel_rules_docker//container:push.bzl", "container_push")
 
 container_layer(
   name="base-layer",
-  tars=["base.tar"]
+  tars=["../base.tar"]
 )
 
 container_layer(
   name="bazel-layer",
-  tars=["bazel_added.tar"]
+  tars=["../bazel_added.tar"]
 )
 
 container_layer(
   name="docker-layer",
-  tars=["docker_added.tar", 
-        "docker_common.tar"]
+  tars=["../docker_added.tar", 
+        "../docker_common.tar"]
 )
 
 container_image(
