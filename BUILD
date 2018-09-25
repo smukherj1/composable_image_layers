@@ -40,7 +40,7 @@ container_push(
   image=":image-bazel",
   format="Docker",
   registry="gcr.io",
-  repository="asci-toolchain/image-bazel",
+  repository="asci-toolchain/suvanjan-test/image-bazel",
   tag="experimental"
 )
 
@@ -49,7 +49,7 @@ container_push(
   image=":image-docker",
   format="Docker",
   registry="gcr.io",
-  repository="asci-toolchain/image-docker",
+  repository="asci-toolchain/suvanjan-test/image-docker",
   tag="experimental"
 )
 
@@ -58,6 +58,6 @@ container_push(
   image=":image-docker-bazel",
   format="Docker",
   registry="gcr.io",
-  repository="asci-toolchain/image-docker-bazel",
+  repository="asci-toolchain/suvanjan-test/image-docker-bazel",
   tag="experimental"
 )
