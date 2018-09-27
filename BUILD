@@ -85,7 +85,7 @@ container_layer(
 
 container_layer(
   name="gcloud-layer2",
-  tars=["layer-3_gcloud.tar"]
+  tars=["layer-3-3_gcloud.tar"]
 )
 
 container_layer(
