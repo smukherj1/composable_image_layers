@@ -184,3 +184,9 @@ container_push(
   tag="experimental"
 )
 
+load(":foo.bzl", "foo")
+
+foo(
+  name="hello-world",
+  msg="Hello World!",
+)
